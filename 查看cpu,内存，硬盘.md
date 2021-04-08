@@ -9,11 +9,13 @@ cpu cores : 4
 # cat /proc/cpuinfo | grep 'model name' |uniq
 model name : Intel(R) Xeon(R) CPU E5630 @ 2.53GHz
 总结：该服务器有2个4核CPU，型号Intel(R) Xeon(R) CPU E5630 @ 2.53GHz
+
 二、查看内存
 2.1 查看内存总数
 #cat /proc/meminfo | grep MemTotal
 MemTotal: 32941268 kB //内存32G
 2.2 查看内存条数
+
 三、查看硬盘
 3.1 查看硬盘大小
 # fdisk -l | grep Disk
