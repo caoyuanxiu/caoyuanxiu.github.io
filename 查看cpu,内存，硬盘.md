@@ -5,6 +5,7 @@
 1.2 查看CPU核数
 # cat /proc/cpuinfo | grep "cpu cores" | uniq
 cpu cores : 4
+
 1.3 查看CPU型号
 # cat /proc/cpuinfo | grep 'model name' |uniq
 model name : Intel(R) Xeon(R) CPU E5630 @ 2.53GHz
